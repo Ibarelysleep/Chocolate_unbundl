@@ -1,0 +1,49 @@
+body {
+    background-color: #fdeee0;
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+    background-image: https://media.istockphoto.com/id/1343076641/vector/background-for-valentines-day-banner-chocolate-candies-pattern-vector-illustration-10eps.jpg?s=612x612&w=0&k=20&c=WHkN5gGQnU9rDohC0hHgXVX1utr6MZB-xGrzOXENwog=;
+}
+
+h1 {
+    text-align: center;
+    color: #100100;
+}
+
+#chocolates {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.chocolate {
+    border: 2px solid #411906;
+    padding: 10px;
+    cursor: pointer;
+    text-align: center; 
+    width: 200px; 
+    margin: 0 auto; 
+    overflow: hidden; 
+}
+
+.chocolate img {
+    max-width: 100%; 
+    height: auto; 
+
+}
+
+.chocolate.selected {
+    background-color: #411906; 
+}
+
+#summary {
+    margin-top: 20px;
+    border: 2px solid #411906;
+    padding: 10px;
+    text-align: center;
+}
+
+#totalPrice {
+    font-weight: bold;
+}
